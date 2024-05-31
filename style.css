@@ -1,0 +1,151 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+}
+
+section{
+    height: 300px;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%
+}
+.square1{
+
+    display: flex;
+}
+.blackboard {
+       --fore-color: #fff;
+        color: var(--clr-300);
+        background-color: #000;
+        width: 510px;
+        height: 450px;
+        top: 72px;
+      
+        
+}
+
+.img1{
+    width: 730px;
+    height: 450px;
+   
+    }
+
+.square2 {
+    width: 1440px;
+    height: 600px;
+    top: 722px;
+    gap: 0px;
+    opacity: 0px;
+    
+    
+    }
+    .square3{
+
+        display: flex;
+    }
+    .whiteboard {
+        --fore-color: #0c0c0c;
+         color: var(--clr-300);
+         background-color: #f9f8f8;
+         width: 510px;
+         height: 450px;
+         top: 72px;
+    }
+        
+    .text1 {
+        color: #020202;
+    
+    }
+    .img3{
+        width: 830px;
+        height: 600px;
+        top: 1322px;
+        left: 610px;   
+        }
+       
+        .pictures {
+            display: flex;
+        }
+        .photo1 {
+            width: 360px;
+         height: 500px;
+            
+        }
+        .photo2 {
+         width: 360px;
+         height: 500px;
+         top: 1922px;
+         left: 360px;
+
+        }
+        .photo3 {
+            width: 360px;
+            height: 500px;
+            top: 1922px;
+            left: 720px;
+            
+           
+            }
+            .photo4{
+                width: 360px;
+                height: 500px;
+                top: 1922px;
+                left: 1080px;
+                
+        
+            }
+            .pictures {
+                perspective: 400px;
+             }
+             
+            .group {
+                display: flex;
+                width: 1110px;
+                height: 436px;
+                top: 2542px;
+                left: 165px;
+               
+                
+                
+            }
+            
+.nav{
+    background: #27232d;
+    color: #FFF;
+    display: flex
+}
+
+.nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 50%;
+    margin-left: auto
+}
+ul li{
+    padding: 20px;
+    list-style: none
+}
+ul li a{
+    color: #FFF;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold
+}
+            .text {
+                color: #FFF;
+            
+            }
+footer{ 
+  
+    width:100%; 
+    height:100px; 
+    background-color: #27232d;
+  }
+ 
