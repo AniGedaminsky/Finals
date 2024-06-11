@@ -17,11 +17,11 @@ const validate = () => {
         result.style.color = 'red';
     }
 };
-
-document.getElementById('email').addEventListener('input', validate);
-
-document.getElementById('contactForm').addEventListener('submit', function(event) {
+document.getElementById('contact').addEventListener('submit', function(event) {
     event.preventDefault(); // Prevent the default form submission
     // Add validation or other logic here if needed
-    window.location.href = 'index.html'; // Redirect to Main page
+
+    // Redirect to the main page
+    window.location.href = 'index.html';
 });
+
