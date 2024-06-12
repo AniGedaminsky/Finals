@@ -17,12 +17,12 @@ signUpBtn.addEventListener("click", () => {
 fistForm.addEventListener("submit", (e) => {
     e.preventDefault();
     // Perform any validation or form submission tasks here
-    window.location.href = "index.html"; // Change this to your main page URL
+    window.location.href = "/index.html"; // Change this to your main page URL
 });
 
 secondForm.addEventListener("submit", (e) => {
     e.preventDefault();
-    window.location.href = "index.html"; // Change this to your main page URL
+    window.location.href = "/index.html"; // Change this to your main page URL
 });
 
 submitSignUpBtn.addEventListener("click", () => {
