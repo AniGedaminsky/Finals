@@ -25,14 +25,14 @@ section{
         width: 510px;
         height: 450px;
         top: 72px;
-      
+         
         
 }
 
 .img1{
     width: 730px;
     height: 450px;
-   
+   border-radius: 15px;
     }
 
 .square2 {
@@ -66,15 +66,17 @@ section{
         height: 600px;
         top: 1322px;
         left: 610px;   
+        border-radius: 15px;
+        border-radius: 15px;
         }
        
         .pictures {
             display: flex;
         }
         .photo1 {
-            width: 360px;
+         width: 360px;
          height: 500px;
-            
+         border-radius: 15px;
         }
         .photo2 {
          width: 360px;
@@ -101,6 +103,7 @@ section{
             }
             .pictures {
                 perspective: 400px;
+                
              }
              
             .group {
